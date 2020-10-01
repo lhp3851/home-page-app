@@ -1,12 +1,12 @@
 import React from "react";
 import UserProfile from "../User";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UserProfile />
+        <UserProfile className="content" />
       </header>
     </div>
   );
